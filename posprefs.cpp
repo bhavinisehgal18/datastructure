@@ -2,6 +2,10 @@
 using namespace std;
 int main() 
 {   
+    int t;
+    cin>>t;
+    while(t!=0)
+    {
     int n, k;
     cin>>n>>k;
     int arr[n];
@@ -73,7 +77,8 @@ int main()
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    cout<<c;
+    t--;
+    }
     return 0;
 }
 
